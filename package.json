@@ -1,7 +1,7 @@
 {
   "name": "nodejs-ex",
   "version": "0.0.1",
-  "description": "Node.js sample app for OpenShift 3",
+  "description": "bot",
   "main": "server.js",
   "dependencies": {
     "chai": "^3.5.0",
@@ -25,8 +25,13 @@
     "type": "git",
     "url": "http://github.com/openshift/nodejs-ex.git"
   },
-  "author": "Steve Speicher <sspeiche@gmail.com>",
-  "license": "CC-BY-1.0",
+   "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "discord.js": "^11.3.2",
+    "discord.js-commando": "^0.9.0",
+    "return-deep-diff": "^0.2.9"
   "bugs": {
     "url": "http://github.com/openshift/nodejs-ex/issues"
   },
